@@ -356,9 +356,6 @@ class XRANet(Model):
 
                     x = tfkl.concatenate([conv1, conv3, conv5, conv7, pool], axis=-1, name="incp_pool_cnct_{}".format(i+1)) # Multi scale concatenate 2 with max pool
 
-                    #Scale the max pooling layer to have the same amount of filters as the concatenation
-                    # scaledPool = tfkl.Conv2D(x.shape[-1], kernel_size=self.kernel_size, padding=self.padding)(pool)
-
                     #Attention mechanism
                     concat = x
                     theta = attentionsBlock[0](pool)
