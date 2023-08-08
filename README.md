@@ -35,10 +35,19 @@ Under the following terms:
 If you use this architecture in your research, please cite our paper:
 
 ```bib
-@article{yourName2023xranet,
-  title={XRANet: An eXtra-wide, Residual and Attention-based deep convolutional neural network for semantic segmentation},
-  author={Your Name and Co-authors},
-  journal={Journal Name},
-  year={2023}
+@inproceedings{10.1117/12.2692337,
+author = {Roger Booto Tokime and Moulay A. Akhloufi},
+title = {{XRANet: an extra-wide, residual and attention-based deep convolutional neural network for semantic segmentation}},
+volume = {12749},
+booktitle = {Sixteenth International Conference on Quality Control by Artificial Vision},
+editor = {Igor Jovančević and Jean-Jos{\'e} Orteu},
+organization = {International Society for Optics and Photonics},
+publisher = {SPIE},
+pages = {127490S},
+abstract = {In this paper, we propose XRANet, a Deep Convolutional Neural Network (DNN) architecture for Semantic Segmentation. The recent advancements in deep learning and convolutional neural networks have greatly improved the accuracy of segmentation tasks. XRANet builds on the widely used U-Net architecture and adds several improvements to increase performance. The eXtra-wide mechanism in the encoder, combined with residual connections and an attention mechanism in both the encoder and decoder, enhances feature extraction and reduces the activation of pixels outside the regions of interest. The proposed architecture was evaluated on various public datasets, and the results were measured using the dice coefficient metric, obtaining promising quantitavive and qualitative results. },
+keywords = {Deep learning, CNN, Attention mechanism, Semantic segmentation},
+year = {2023},
+doi = {10.1117/12.2692337},
+URL = {https://doi.org/10.1117/12.2692337}
 }
 ```
